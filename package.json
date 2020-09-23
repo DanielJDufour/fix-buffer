@@ -1,0 +1,29 @@
+{
+  "name": "fix-buffer",
+  "version": "0.0.0",
+  "description": "Fixes Issue where NodeJS Buffers are Accidentally Converted into Simple Objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/fix-buffer.git"
+  },
+  "keywords": [
+    "buffer",
+    "conversion",
+    "node",
+    "nodejs",
+    "object"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/fix-buffer/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/fix-buffer#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  }
+}
